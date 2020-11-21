@@ -56,7 +56,7 @@ function surfaceAreaCube(side) {
 }
 
 function surfaceAreaCylinder(radius, height){
-  let surfaceAreaCylinder = radius * height;
+  let surfaceAreaCylinder = 2 * Math.PI * radius * height + 2 *Math.PI * radius * radius;
   return surfaceAreaCylinder;
 }
 
@@ -66,8 +66,8 @@ function perimeterSquare(side){
   return perimeterSquare;
 }
 
-function perimeterRectangle(length, weight){
-  let perimeterRectangle = length + length + weight + weight;
+function perimeterRectangle(length, width){
+  let perimeterRectangle = 2(length + width);
   return perimeterRectangle;
 }
 
@@ -77,7 +77,7 @@ function perimeterTriangle(side1, side2, side3){
 }
 
 function perimeterCircle(diameter){
-  let perimeterCircle = radius + radius
+  let perimeterCircle = Math.PI * diameter;
   return perimeterCircle;
 }
 
