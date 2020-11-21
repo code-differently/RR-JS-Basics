@@ -52,7 +52,8 @@ function Sphere(radius){
 
 // Surface Area formulas
 function surfaceAreaCube(side) {
-  return 6 * Math.pow(side, 2);
+  let surfaceAreaCube = 6 * side * side
+  return surfaceAreaCube;
 }
 
 function surfaceAreaCylinder(radius, height){
