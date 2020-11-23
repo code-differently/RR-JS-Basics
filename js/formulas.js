@@ -1,80 +1,113 @@
 // Basic math formulaas
-function addition(num1, num2){
-  return -1;
+
+
+//Add
+function add(a,b)
+{let sum=a + b;
+return sum;
 }
 
-function subtraction(num1, num2){
-  return -1;
+//Subtract
+function subtract(a, b)
+{let diff = a - b;
+return diff;
 }
 
-function multiplication(num1, num2){
-  return -1;
+//Multiply
+function product(a,b)
+{let prod=a*b;
+return prod;
 }
 
-function division(num1, num2){
-  return -1;
+//Division
+function division(a,b)
+{let div=a/b
+return div;
 }
 
-// Area formulaas
-function areaSquare(side){
-  return -1;
+//Square
+function squareArea(s){
+	let area = s * s;
+	return area
 }
 
-function areaRectangle(length, width){
-  return -1;
+
+//Rectanle Area
+function areaRectangle(l,w){
+    let RectangleArea = l * w;
+     return RectangleArea
+                    }
+     
+//Paralleloragam Area
+
+function parallelogram(b,h){
+    let ParallelogramArea = b * h;
+
+    console.log("Area of Parallelogram with base of "+ b + " and height of " + h +  " = " + ParallelogramArea)
 }
 
-function areaParallelogram(base, height){
-  return -1;
+//Triangle Area
+function triangle(b,h){
+    let TriangleArea = (b * h)/2;
+
+    console.log("Area of Triangle with base of "+ b + " and height of " + h +  " = " + TriangleArea)
 }
 
-function areaTriangle(base, height){
-  return -1;
+//Circle Area
+function circle(r){
+
+    // Using 'Math.PI' to get the value of pie
+ 
+
+    let CircleArea = Math.PI * r * r;
+
+    console.log("Area of Cricle with radius of " + r + " = " + CircleArea)
+
 }
 
-function Circle(radius){
-  return -1;
+//Sphere Area
+function sphere(r){
+    let SphereArea = 4 * Math.PI * r * r;
+
+    console.log("Area of Sphere with radius of " + r + " = " + SphereArea)
+} 
+
+//Cylinder Area
+function cylinderSA(r,h){
+    let surfaceArea = 2 * Math.PI * r * h
+
+    console.log("Cylinder (lateral) Surface Area = " + surfaceArea)
 }
 
-function Sphere(radius){
-  return -1;
+//Rectangle Perimeter
+function rectangleP(l, w){
+    let p = (2*l) + (2*w)
+
+    console.log("Rectangle Perimeter = " + p );
 }
 
-// Surface Area formulas
-function surfaceAreaCube(side){
-  return -1;
+
+//Circle Perimeter
+
+function circleP(d){
+    let c = Math.PI * d
+
+    console.log("Cirlce Perimeter = " + c)
 }
 
-function surfaceAreaCylinder(radius, height){
-  return -1;
+
+
+//Rectangular Container Volume
+function rectangularContainerVolume(l,w,h){
+    let v = l * w * h
+    console.log("Volume of Rectangle = " + v)
+} 
+
+function cylinderVolume(r, h){
+
+    let v = Math.PI * r * r * h;
+    
+    console.log("Volume of Cylinder = " + v) 
 }
 
-// Perimeter formulas
-function perimeterSquare(side){
-  return -1;
-}
 
-function perimeterRectangle(length, height){
-  return -1;
-}
-
-function perimeterTriangle(side1, side2, side3){
-  return -1;
-}
-
-function perimeterCircle(diameter){
-  return -1;
-}
-
-// Volume formulas
-function volumeCube(side){
-  return -1;
-}
-
-function volumeRectangular(length, width, height){
-  return -1;
-}
-
-function volumeCylinder(radius, height){
-  return -1;
-}
