@@ -1,80 +1,80 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
+  return (num1+num2);
 }
 
 function subtraction(num1, num2){
-  return -1;
+  return (num1-num2);
 }
 
 function multiplication(num1, num2){
-  return -1;
+  return (num1*num2);
 }
 
 function division(num1, num2){
-  return -1;
+  return (num1/num2);
 }
 
 // Area formulaas
 function areaSquare(side){
-  return -1;
+  return (side*side);
 }
 
 function areaRectangle(length, width){
-  return -1;
+  return (length*width);
 }
 
 function areaParallelogram(base, height){
-  return -1;
+  return (base*height);
 }
 
 function areaTriangle(base, height){
-  return -1;
+  return .5*(base*height);
 }
 
 function Circle(radius){
-  return -1;
+  return Math.PI*(radius*radius);
 }
 
 function Sphere(radius){
-  return -1;
+  return (4*(Math.PI*(radius*radius)));
 }
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
+  return (6*(side*side));
 }
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
+  return (2*Math.PI*radius*height);
 }
 
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
+  return (4*side);
 }
 
-function perimeterRectangle(length, height){
-  return -1;
+function perimeterRectangle(length, width){
+  return 2*(length + width);
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  return (side1 + side2 + side3);
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  return (Math.PI*diameter);
 }
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  return (side*side*side);
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  return (length*width*height);
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  return (Math.PI*(radius*radius)*height);
 }
