@@ -1,19 +1,29 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
+  return num1 + num2;
 }
+//let sum = addition(23, 47);
+//console.log (sum);
 
 function subtraction(num1, num2){
-  return -1;
+  return num1 - num2;
 }
+//let sum = subtraction(23, 47);
+//console.log (sum);
 
 function multiplication(num1, num2){
-  return -1;
+  return num1 * num2;
 }
+//let sum = multiplication(23, 47);
+//console.log (sum);
 
 function division(num1, num2){
-  return -1;
+  return num1 / num2;
 }
+let sum = division(23, 47);
+console.log (sum);
+
+
 
 // Area formulaas
 function areaSquare(side){
