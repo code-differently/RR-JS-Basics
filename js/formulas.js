@@ -20,19 +20,25 @@ function multiplication(num1, num2){
 function division(num1, num2){
   return num1 / num2;
 }
-let sum = division(23, 47);
-console.log (sum);
+//let sum = division(23, 47);
+//console.log (sum);
 
 
 
 // Area formulaas
 function areaSquare(side){
-  return -1;
+  return side * side;
 }
+//let side = areaSquare(2);
+//console.log (side);
+
 
 function areaRectangle(length, width){
-  return -1;
+  return length * width;
 }
+ // let area = areaRectangle(25, 75);
+  //console.log (area);
+
 
 function areaParallelogram(base, height){
   return -1;
