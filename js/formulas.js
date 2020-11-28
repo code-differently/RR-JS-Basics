@@ -84,13 +84,13 @@ function perimeterCircle(diameter){
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  return Math.pow(side, 3);
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  return length * width * height;
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  return Math.PI * Math.pow(radius, 2) * height;
 }
