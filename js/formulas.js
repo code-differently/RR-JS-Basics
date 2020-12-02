@@ -1,80 +1,123 @@
-// Basic math formulaas
-function addition(num1, num2){
-  return -1;
+// Basic math formulas
+  function addition(num1, num2){
+  let sum=0;
+  sum=num1 + num2;
+  return sum;   
 }
 
-function subtraction(num1, num2){
-  return -1;
-}
+ function subtraction(num1, num2){
+   let sum=0;
+   sum=num1 - num2;
+   return sum;
+} 
+  
+  function multiplication(num1, num2){
+  let sum=0;
+  sum=num1*num2;
+  return sum;   
+} 
 
-function multiplication(num1, num2){
-  return -1;
-}
 
-function division(num1, num2){
-  return -1;
-}
+  function division(num1, num2){
+  let sum=0;
+  sum=num1/num2;
+  return sum;   
+} 
 
-// Area formulaas
-function areaSquare(side){
-  return -1;
-}
 
-function areaRectangle(length, width){
-  return -1;
-}
+ // Area formulas
+  function areaSquare(num1){
+  sum=(num1*num1);
+  return sum;   
+} 
+
+ function areaRectangle(length, width){
+  let area=0;
+  area=length*width;
+  return area;   
+} 
 
 function areaParallelogram(base, height){
-  return -1;
-}
+  let area=0;
+  area=base*height;
+  return area;   
+} 
 
+//  return  1/2 * (base * height); 
 function areaTriangle(base, height){
-  return -1;
-}
+  let area=0;
+  area=.5*base*height;
+  return area;   
+} 
 
 function Circle(radius){
-  return -1;
+  let area=0;
+  area=3.14*radius*radius;
+  return area;   
 }
 
 function Sphere(radius){
-  return -1;
+  let area=0;
+  area=4*radius*radius;
+  return area;   
+  
 }
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
+  let cube=0;
+  cube=6*side*side;
+  return cube;   
 }
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
+  let cylinder=0;
+  cylinder=2*3.14*radius*height;
+  return cylinder;   
 }
-
+  
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
-}
+  let value=0;
+  value=4*side;
+  return value;
+  }
 
 function perimeterRectangle(length, height){
-  return -1;
+  let value=0;
+  value=2*length+2*height;
+  return value;  
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  let value=0;
+  value=side1 + side2 +side3;
+  return value;  
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  let circle=0;
+  circle=3.14*diameter;
+  return circle;  
 }
+
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  let cube=0;
+  cube=side*side*side;
+  return cube;  
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
-}
+ let volume=0;
+  volume=length*width*height;
+  return volume;  
+} 
+
 
 function volumeCylinder(radius, height){
-  return -1;
+  let cylinder=0;
+  cylinder=3.14*radius*height;
+  return cylinder;
 }
