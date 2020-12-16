@@ -1,80 +1,99 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
+  const sum = num1 + num2;
+  return sum;
 }
 
 function subtraction(num1, num2){
-  return -1;
+  const diff = num1 - num2;
+  return diff;
 }
 
 function multiplication(num1, num2){
-  return -1;
+  const product = num1 * num2;
+  return product;
 }
 
 function division(num1, num2){
-  return -1;
+  const quotient = num1 / num2;
+  return quotient;
 }
 
 // Area formulaas
 function areaSquare(side){
-  return -1;
+  const area = side * side;
+  return area;
 }
 
 function areaRectangle(length, width){
-  return -1;
+  const area = length * width;
+  return area;
 }
 
 function areaParallelogram(base, height){
-  return -1;
+  const area = base * height;
+  return area;
 }
 
 function areaTriangle(base, height){
-  return -1;
+  const area = .5 * base * height;
+  return area;
 }
 
 function Circle(radius){
-  return -1;
+  const area = Math.PI * radius;
+  return area;
 }
 
 function Sphere(radius){
-  return -1;
+  const s = 4 * Math.PI * radius * radius;
+  return s;
 }
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
+  const surfaceArea = side * side * 6;
+  return surfaceArea;
 }
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
+  const surfaceArea = 2 * Math.PI * radius * height;
+  return surfaceArea;
 }
 
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
+  const perimeter = 4 * side;
+  return perimeter;
 }
 
 function perimeterRectangle(length, height){
-  return -1;
+  const perimeter = 2 * length + 2 * height;
+  return perimeter;
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  const perimeter = side1 + side2 + side3;
+  return perimeter;
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  const perimeter = Math.PI * diameter;
+  return perimeter;
 }
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  const volume = side * side * side;
+  return volume;
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  const volume = length * width * height;
+  return volume;
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  const volume = Math.PI * radius * radius * height;
+  return volume;
 }
