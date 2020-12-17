@@ -37,7 +37,7 @@ function Circle(radius){
 }
 
 function Sphere(radius){
-  return 4 * Math.PI * (Math.pow(radius, 3) / 3);
+  return 4 * Math.PI * Math.pow(radius, 2);
 }
 
 // Surface Area formulas
@@ -59,22 +59,22 @@ function perimeterRectangle(length, width){
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  return side1 + side2 + side3;
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  return Math.PI * diameter;
 }
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  return Math.pow(side, 3);
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  return length * width * height;
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  return Math.PI * Math.pow(radius, 2) * height;
 }
