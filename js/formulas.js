@@ -1,53 +1,92 @@
 // Basic math formulaas
-function addition(num1, num2){
-  return -1;
+
+
+function getAddition( a, b ){
+  const add = a + b;
+  return add;
 }
 
-function subtraction(num1, num2){
-  return -1;
+  getAddition(33, 45);
+
+
+
+function getSubtraction(a, b){
+  const sub = a - b;
+  return sub;
 }
 
-function multiplication(num1, num2){
-  return -1;
+  getSubtraction(45, 33);
+
+function getMultiplication(a, b){
+  const multiply = a * b;
+  return multiply;
 }
 
-function division(num1, num2){
-  return -1;
+   getMultiplication(97, 56);
+
+function getDivision(a, b){
+  const divide = a / b;
+  return divide;
 }
+
+    getDivision(9, 81);
 
 // Area formulaas
-function areaSquare(side){
-  return -1;
+function getSquare(a, side){
+  const square = a / side ;
+  return square;
 }
+
+ getSquare(8, 64);
 
 function areaRectangle(length, width){
-  return -1;
+  const rectangle = length * width;
+  return rectangle
 }
+
+getMultiplication(1920, 1080 );
 
 function areaParallelogram(base, height){
-  return -1;
+  const parallelogram = base * height;
+  return parallelogram
 }
+
+getMultiplication(25, 70);
 
 function areaTriangle(base, height){
-  return -1;
+  const triangle = base * height;
+  return triangle 
 }
+
+getMultiplication(70, 30);
 
 function Circle(radius){
-  return -1;
+  const circle = (pi * squared); radius;
+  return circle;
 }
+getMultiplication(3.14, (6*6));
+
 
 function Sphere(radius){
-  return -1;
+  const sphere = ((v * a) + d); radius;
+  return sphere
 }
+ 
+getMultiplication(15, 17, 66);
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
+  const cube = a * b * c; 
+  return cube
 }
+getMultiplication(44, 22, 33);
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
+  const cylinder = radius * height;
+  return cylinder
 }
+
+getMultiplication(120, 360);
 
 // Perimeter formulas
 function perimeterSquare(side){
