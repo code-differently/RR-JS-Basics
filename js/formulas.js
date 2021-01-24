@@ -17,8 +17,8 @@ function division(num1, num2){
 
 // Area formulaas
 function areaSquare(num){
-  let A = (num * num * num * num)
-  return A;} 
+  let a = (num * num * num * num)
+  return a;} 
   areaSquare(2)
 
 
@@ -27,31 +27,32 @@ function areaRectangle(length, width){
   areaRectangle(6,4)
 
 function areaParallelogram(base, height){
-  return base * height;}
+  return base * height;
+}
   areaParallelogram(8,4)
 
 function areaTriangle(base, height){
-  return -1;
+  return .5 * base * height;
 }
+  areaTriangle(6,8)
 
 function Circle(radius) {
-  return (radius * radius * Math.PI);}
+  return (radius * radius * Math.PI);
   radius(10)
-function Circle(radius){
-  return -1;
 }
 
 function Sphere(radius){
-  return -1;
+  return (4 * Math.PI * (radius * radius));
 }
+radius(8)
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
+  return 6(Math.pow(side,2));
 }
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
+  return 2 * Math.PI * radius * height;
 }
 
 // Perimeter formulas
