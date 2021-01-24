@@ -1,37 +1,42 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
-}
+  return num1 + num2;}
+addition(2, 3)
 
 function subtraction(num1, num2){
-  return -1;
-}
+  return num1 - num2;}
+subtraction(5,3)
 
 function multiplication(num1, num2){
-  return -1;
-}
+  return num1 * num2;}
+  multiplication(5, 5)
 
 function division(num1, num2){
-  return -1;
-}
+  return num1 / num2;}
+  division(36, 3)
 
 // Area formulaas
-function areaSquare(side){
-  return -1;
-}
+function areaSquare(num){
+  let A = (num * num * num * num)
+  return A;} 
+  areaSquare(2)
+
 
 function areaRectangle(length, width){
-  return -1;
-}
+  return length * width;}
+  areaRectangle(6,4)
 
 function areaParallelogram(base, height){
-  return -1;
-}
+  return base * height;}
+  areaParallelogram(8,4)
 
 function areaTriangle(base, height){
   return -1;
 }
 
+function Circle(radius) {
+  return (radius * radius * Math.PI);}
+  radius(10)
 function Circle(radius){
   return -1;
 }
