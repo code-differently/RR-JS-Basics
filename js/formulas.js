@@ -57,30 +57,30 @@ function surfaceAreaCylinder(radius, height){
 
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
+  return 4(side);
 }
 
 function perimeterRectangle(length, height){
-  return -1;
+  return 2(length) + 2(width);
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  return side1 + side2 + side3;
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  return Math.PI * diameter;
 }
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  return Math.pow(side,3);
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  return length * width * height;
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  return Math.PI * Math.pow(radius,2) * height;
 }
