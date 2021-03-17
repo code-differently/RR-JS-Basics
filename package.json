@@ -1,0 +1,19 @@
+{
+  "name": "rr-js-basics",
+  "version": "1.0.0",
+  "description": "## Tech Stack A list of expected technology to be used in this assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcee917/RR-JS-Basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcee917/RR-JS-Basics/issues"
+  },
+  "homepage": "https://github.com/kcee917/RR-JS-Basics#readme"
+}
